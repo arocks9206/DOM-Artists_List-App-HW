@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Artists List</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <script src="js/app.js"></script>
+</head>
+
+<body>
+
+  <form id="new-item-form">
+    <div id="form-wrapper">
+      <div class="form-item">
+        <label for="art movement" class="primary">Art Movement</label>
+          <select id="art movement">
+            <option value="" disabled select></option>
+            <option value="Contemporary">Contemporary</option>
+            <option value="Modern">Modern</option>
+            <option value="Impressionism">Impressionism</option>
+            <option value="Surrealism">Surrealism</option>
+            <option value="Pop Art">Pop Art</option>
+            <option value="Renaissance">Renaissance</option>
+          </select>
+      </div>
+    </div>
+
+    <div class="form-item">
+      <label for="artist" class="primary">Artist</label>
+      <input type="text" id="artist" required/>
+    </div>
+
+    <div class="form-item">
+      <label for="art work">Art Work</label>
+      <input type="text" id="art work" required/>
+    </div>
+
+    <input type="submit" value="save"/>
+  </form>
+
+  <button id="delete-all">Delete All</button>
+
+  <h1>Artists List</h1>
+  <ul id="artists-list"></ul>
+
+
+</body>
+</html>
