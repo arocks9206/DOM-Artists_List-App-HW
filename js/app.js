@@ -24,13 +24,13 @@ const createArtistListItem = function (form) {
   artist.textContent = form.artist.value;
   artistListItem.appendChild(artist);
 
-  const artwork = document.createElement('h3');
-  artwork.textContent = form.artwork.value;
-  artistListItem.appendChild(artwork);
+  const artWork = document.createElement('h3');
+  artWork.textContent = form.artWork.value;
+  artistListItem.appendChild(artWork);
 
-  const artmovement = document.createElement('p');
-  artmovement.textContent = form.artmovement.value;
-  artistListItem.appendChild(artmovement);
+  const artMovement = document.createElement('p');
+  artMovement.textContent = form.artMovement.value;
+  artistListItem.appendChild(artMovement);
 
   return artistListItem;
 }
