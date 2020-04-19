@@ -1,5 +1,8 @@
 body {
-  font-family: Tahoma;
+  background: #FFFAF0 url('/images/gallery.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: Century Gothic;
 }
 
 #form-wrapper {
@@ -36,5 +39,5 @@ button, input[type="submit"] {
   padding: 0.5rem 0.8rem;
   border: 1px solid #20437c;
   border-radius: 5%;
-  background: #ddeaff;
+  background: #f5cab3;
 }
