@@ -35,6 +35,11 @@ const createArtistListItem = function (form) {
   return artistListItem;
 }
 
+function imageIsLoaded() {
+  alert(this.src);  // blob url
+  // update width and height ...
+}
+
 const handleDeleteAllClick = function (event) {
   const artistList = document.querySelector('#artist-list');
   artistList.innerHTML = '';
